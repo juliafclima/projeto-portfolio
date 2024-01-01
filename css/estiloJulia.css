@@ -48,13 +48,6 @@ main {
    align-items: center;
 }
 
-.introducao--container {
-   max-width: 800px;
-   width: 100%;
-   padding: 0 20px;
-   box-sizing: border-box;
-}
-
 .introducao--container,
 .sobre--container,
 .tecnologias,
@@ -205,10 +198,6 @@ main {
    margin: 0 3.438rem;
 }
 
-.card--titulo {
-   text-align: center;
-}
-
 .card img {
    max-width: 100%;
    cursor: zoom-in;
@@ -222,8 +211,10 @@ main {
    margin: 1.875rem 1.25rem 0 1.25rem;
    color: white;
    padding: 15px;
+   height: 350px;
    display: flex;
    flex-direction: column;
+   justify-content: space-between;
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -231,12 +222,14 @@ main {
    text-align: center;
    font-size: 1.8rem;
    margin-bottom: 1rem;
+   line-height: 1.2;
 }
 
 .img--card {
    max-width: 100%;
-   height: auto;
+   height: 200px;
    cursor: zoom-in;
+   object-fit: contain;
    transition: 0.6s;
    margin: auto;
 }
@@ -259,7 +252,7 @@ main {
 }
 
 .card--botao:hover {
-   background-color: #303057;
+   background-color: #30305743;
    color: white;
    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
 }
@@ -314,12 +307,12 @@ main {
 
    .introducao--titulo {
       margin: 10px;
-      font-size: 2em;
+      font-size: 1em;
    }
 
    .introducao--img {
       width: 100%;
-      max-width: 250px;
+      max-width: 150px;
       height: auto;
    }
 
