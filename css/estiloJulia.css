@@ -42,6 +42,29 @@ a {
    text-decoration: none;
 }
 
+main {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.introducao--container {
+   max-width: 800px;
+   width: 100%;
+   padding: 0 20px;
+   box-sizing: border-box;
+}
+
+.introducao--container,
+.sobre--container,
+.tecnologias,
+.projetos {
+   max-width: 800px;
+   width: 100%;
+   padding: 0 2.5%;
+   box-sizing: border-box;
+}
+
 .titulo {
    text-align: center;
    margin-bottom: 1.875rem;
@@ -49,6 +72,8 @@ a {
    background-color: var(--cor-3);
    padding: 10px;
    font-size: 2.2em;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   width: 100vw;
 }
 
 .header--logo {
@@ -68,7 +93,8 @@ a {
    padding-top: 0.625rem;
 }
 
-.introducao, .introducao--container {
+.introducao,
+.introducao--container {
    display: flex;
    flex-direction: column;
    align-items: center;
@@ -82,11 +108,19 @@ a {
    line-height: 1.5;
 }
 
+.introducao--titulo-aumentar {
+   font-size: 1.5em;
+   color: black;
+   cursor: pointer;
+   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
 .introducao--titulo-color {
    color: var(--cor-3);
    font-size: 3em;
    cursor: pointer;
    font-weight: bolder;
+   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .introducao--titulo-color:hover {
@@ -110,28 +144,23 @@ a {
 }
 
 .introducao--img {
-   width: 360px;
-   height: 260px;
-   margin-bottom: 10px;
-   border-radius: 60%;
+   width: 90%;
+   max-width: 250px;
+   height: auto;
+   margin-bottom: 2%;
+   border-radius: 50%;/
 }
 
 .introducao--links {
    margin-top: 10px;
 }
 
-.introducao--titulo-aumentar {
-   font-size: 2.5em;
-   color: black;
-   cursor: pointer;
-}
-
-.sobre--container, .card {
+.sobre--container,
+.card {
    background-color: var(--cor-4);
-   border-radius: 0.938rem;
-   margin: 1.875rem 1.25rem 0 1.25rem;
+   border-radius: 3%;
    color: white;
-   padding: 15px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .sobre--descricao {
@@ -142,9 +171,27 @@ a {
 }
 
 .tecnologias--img {
-   width: 60px;
-   height: 60px;
-   padding: 1.25rem;
+   width: 40px;
+   height: 40px;
+}
+
+.sobre--container {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+
+.centralizar--sessao {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+
+.tecnologias--img {
+   width: calc(25% - 10px);
+   margin-bottom: 20px;
+   margin-top: 20px;
 }
 
 .projetos {
@@ -158,16 +205,37 @@ a {
    margin: 0 3.438rem;
 }
 
-.card:first-child {
-   margin-top: 0;
-}
-
 .card--titulo {
    text-align: center;
 }
 
-.card img{
+.card img {
    max-width: 100%;
+   cursor: zoom-in;
+   transition: 0.6s;
+   margin: auto;
+}
+
+.card {
+   background-color: var(--cor-4);
+   border-radius: 0.938rem;
+   margin: 1.875rem 1.25rem 0 1.25rem;
+   color: white;
+   padding: 15px;
+   display: flex;
+   flex-direction: column;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card--titulo {
+   text-align: center;
+   font-size: 1.8rem;
+   margin-bottom: 1rem;
+}
+
+.img--card {
+   max-width: 100%;
+   height: auto;
    cursor: zoom-in;
    transition: 0.6s;
    margin: auto;
@@ -187,11 +255,13 @@ a {
    color: #303057;
    text-align: center;
    transition: background-color 0.6s, color 0.6s;
+   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .card--botao:hover {
    background-color: #303057;
    color: white;
+   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
 }
 
 .container--botao {
@@ -201,14 +271,59 @@ a {
 }
 
 .footer {
-  background-color: var(--cor-3);
-  padding: 0.225rem;
-  margin-top: 2.25rem;
-  font-weight: bolder;
-  color: white;
+   background-color: var(--cor-3);
+   padding: 0.225rem;
+   margin-top: 2.25rem;
+   font-weight: bolder;
+   color: white;
+   box-shadow: 0 -4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .contato {
    text-align: center;
    margin-bottom: 3px;
+}
+
+@media screen and (max-width: 768px) {
+   .card {
+      margin: 1.875rem 0.625rem;
+   }
+
+   .card--titulo {
+      font-size: 1.5rem;
+   }
+
+   .img--card {
+      width: 100%;
+   }
+
+   .projetos--container {
+      grid-template-columns: repeat(1, 1fr);
+      gap: 10px;
+      padding: 0 10px;
+   }
+
+   .sobre--container,
+   .tecnologias,
+   .projetos,
+   .desafios {
+      width: 100%;
+      padding: 0 2.5%;
+      box-sizing: border-box;
+   }
+
+   .introducao--titulo {
+      margin: 10px;
+      font-size: 2em;
+   }
+
+   .introducao--img {
+      width: 100%;
+      max-width: 250px;
+      height: auto;
+   }
+
+   .sobre--descricao {
+      font-size: 1.2em;
+   }
 }
