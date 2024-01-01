@@ -1,4 +1,4 @@
-var texto = "Desenvolvedora\nFull-Stack";
+var texto = "Dev Front-End";
 
 var intervalo = 50;
 
