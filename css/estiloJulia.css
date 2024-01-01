@@ -147,6 +147,7 @@ main {
 
 .introducao--links {
    margin-top: 10px;
+   display: flex;
 }
 
 .sobre--container,
