@@ -81,7 +81,7 @@ main {
    align-items: center;
    background-color: var(--cor-3);
    border-bottom: 1px solid #580079;
-   color: white;
+   color: #fefefe;
    width: 100%;
    padding-top: 0.625rem;
 }
@@ -103,7 +103,7 @@ main {
 
 .introducao--titulo-aumentar {
    font-size: 1.5em;
-   color: black;
+   color: rgba(21, 21, 21, 0.81);
    cursor: pointer;
    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
@@ -141,7 +141,8 @@ main {
    max-width: 250px;
    height: auto;
    margin-bottom: 2%;
-   border-radius: 50%;/
+   border-radius: 50%;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .introducao--links {
@@ -150,9 +151,9 @@ main {
 
 .sobre--container,
 .card {
-   background-color: var(--cor-4);
+   background-color: #fefefee8;
    border-radius: 3%;
-   color: white;
+   color: rgb(22, 22, 22);
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -209,7 +210,7 @@ main {
    background-color: var(--cor-4);
    border-radius: 0.938rem;
    margin: 1.875rem 1.25rem 0 1.25rem;
-   color: white;
+   color: #fefefe;
    padding: 15px;
    height: 350px;
    display: flex;
@@ -232,6 +233,7 @@ main {
    object-fit: contain;
    transition: 0.6s;
    margin: auto;
+   display: flex;
 }
 
 .card .img--card:hover {
@@ -240,7 +242,7 @@ main {
 
 .card--botao {
    padding: 0.5rem 1rem;
-   background-color: white;
+   background-color: #fefefe;
    border-radius: 0.9rem;
    font-size: 0.9rem;
    font-weight: 700;
@@ -253,7 +255,7 @@ main {
 
 .card--botao:hover {
    background-color: #30305743;
-   color: white;
+   color: #fefefe;
    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
 }
 
@@ -268,7 +270,7 @@ main {
    padding: 0.225rem;
    margin-top: 2.25rem;
    font-weight: bolder;
-   color: white;
+   color: #fefefe;
    box-shadow: 0 -4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
