@@ -137,8 +137,8 @@ main {
 }
 
 .introducao--img {
-   width: 90%;
-   max-width: 250px;
+   width: 100%;
+   max-width: 450px;
    height: auto;
    margin-bottom: 2%;
    border-radius: 50%;
@@ -148,6 +148,7 @@ main {
 .introducao--links {
    margin-top: 10px;
    display: flex;
+   justify-content: center;
 }
 
 .sobre--container,
@@ -328,7 +329,7 @@ main {
 
    .introducao--img {
       width: 100%;
-      max-width: 150px;
+      max-width: 300px;
       height: auto;
    }
 
