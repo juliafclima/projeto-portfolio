@@ -1,477 +1,644 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-   <meta charset="UTF-8" />
-   <meta http-equiv="X-UA-Compatible"
-      content="IE=edge" />
-   <meta name="viewport"
-      content="width=device-width, initial-scale=1.0" />
-   <link rel="stylesheet"
-      href="../css/estiloJulia.css" />
-   <link rel="preconnect"
-      href="https://fonts.googleapis.com" />
-   <link rel="preconnect"
-      href="https://fonts.gstatic.com"
-      crossorigin />
-   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap"
-      rel="stylesheet" />
-   <link rel="shortcut icon"
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
       href="../images/favicon.png"
-      type="image/x-icon" />
-   <link rel="preconnect"
-      href="https://fonts.googleapis.com">
-   <link rel="preconnect"
-      href="https://fonts.gstatic.com"
-      crossorigin>
-   <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
-      rel="stylesheet">
-   <script src="../js/animarTexto.js"></script>
-   <script src="../js/imagemMouse.js"></script>
-   <title>Portfólio | Júlia Lima - Desenvolvedora Full-Stack</title>
-   <link rel="shortcut icon"
+      type="image/x-icon"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <title>Portfólio | Júlia Lima - Desenvolvedora Front-End</title>
+    <link
+      rel="shortcut icon"
       href="../images/favicon.png"
-      type="image/x-icon">
-</head>
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="../css/global.css" />
+    <link rel="stylesheet" href="../css/estiloJulia.css" />
+    <link rel="stylesheet" href="../css/media-query.css" />
+  </head>
 
-<body>
-   <header>
+  <body>
+    <header>
       <div class="header--container">
-         <span class="header--logo"><a href="https://www.linkedin.com/in/juliafclima/"
-               target="_blank"
-               style="color: white;">@Juliafclima</a></span>
-      </div>
-   </header>
-
-   <main>
-      <div class="introducao">
-         <div class="introducao--container">
-            <div class="container">
-               <div>
-                  <h2 class="introducao--titulo">
-                     <span class="introducao--titulo-color"><a href="https://www.linkedin.com/in/juliafclima/"
-                           target="_blank"
-                           style="color: #264d70b6;">Júlia Lima,</a></span>
-                     <br />
-                     <span class="introducao--titulo-aumentar"
-                        id="texto-maquina"></span>
-                  </h2>
-                  <div class="introducao--links">
-                     <a href="https://www.linkedin.com/in/juliafclima/"
-                        #303057
-                        class="introducao-cv"
-                        target="_blank">LinkedIn</a>
-
-                     <a href="https://github.com/juliafclima"
-                        class="introducao-cv"
-                        target="_blank">GitHub</a>
-                  </div>
-               </div>
-               <div>
-                  <img src="../images/fotoJulia.png"
-                     alt="Minha foto"
-                     class="introducao--img">
-               </div>
-            </div>
-         </div>
-      </div>
-
-      <section class="desafios">
-         <h1 class="titulo">Sobre</h1>
-         <div class="centralizar--sessao">
-            <div class="sobre--container">
-               <div class="sobre--container-perfil">
-                  <p class="sobre--descricao">
-                     Olá, tudo bem?<br><br>
-                     Sou a Júlia, Desenvolvedora Front-End e atualmente estou cursando o 6º período do bacharelado de
-                     Sistemas da
-                     Informação na Universidade Estácio de Sá.<br><br>
-                     Entusiasta de tecnologia em busca de conhecimentos!<br><br>
-                     Iniciei meu contato com a computação em um curso de Montagem e Manutenção de computadores terminado
-                     em junho/2015.
-                     Desde então venho me desafiando nesse mundo de possibilidades que é a programação.<br><br>
-                     Em 2023 tive a honra de participar do programa de residência em TIC/Software oferecido pelo Parque
-                     Tecnológico Região
-                     Serrana/SERRATEC no curso de Desenvolvedor Full-Stack. Aprofundei meus
-                     conhecimentos em
-                     diversas áreas, incluindo:<br><br>
-                     - Lógica de Programação<br>
-                     - Programação Web com foco em HTML5, CSS3, JavaScript<br>
-                     - Utilização de Banco de Dados, especificamente PostgreSQL<br>
-                     - Aplicação de POO (Programação Orientada a Objetos) com Java<br>
-                     - Utilização de Python para diferentes propósitos<br>
-                     - Modelagem de Sistemas e Estrutura de Dados<br>
-                     - Experiência com Git e Github para controle de versão e colaboração<br>
-                     - Aplicação prática da Linguagem Unificada de Modelagem (UML)<br>
-                     - Trabalho em equipe utilizando Métodos Ágeis<br><br>
-                     Durante esse programa, participei ativamente de projetos desafiadores, incluindo:<br><br>
-                     1. <strong>Aplicativo de Gerenciamento para E-Commerce:</strong><br>
-                     - Interface de usuário fluida utilizando React Native.<br>
-                     - Desenvolvimento de um aplicativo utilizando Stack e Tab Navigator para uma navegação
-                     eficiente.<br>
-                     - Implementação de um contexto para garantir acesso exclusivo a usuários autenticados, priorizando
-                     a segurança.<br>
-                     - Funcionalidades completas de gerenciamento de produtos, com operações CRUD usando Axios e
-                     validação de inputs.<br>
-                     - Capacidade para criar, apagar e editar produtos, oferecendo uma experiência completa aos
-                     usuários.<br>
-                     - Adição de funcionalidades para login de colaboradores e cadastro de novos funcionários, ampliando
-                     a abrangência da aplicação.<br><br>
-                     2. <strong>Marvelgram:</strong><br>
-                     - Desenvolvimento de uma aplicação com uma interface semelhante ao Instagram, com recursos que
-                     incluem visualização
-                     de histórias e interação social.<br>
-                     - Utilização do React Native para uma experiência de usuário mais fluída e interativa.<br><br>
-                     3. <strong>Sistema Bancário:</strong><br>
-                     - Desenvolvimento de um sistema bancário aplicando os princípios dos 4 pilares da POO:
-                     Encapsulamento, Herança,
-                     Polimorfismo e Abstração.<br>
-                     - Funcionalidade para entrada de dados a partir de um arquivo, permitindo a integração com sistemas
-                     externos e
-                     facilitando o gerenciamento de informações dos clientes.<br>
-                     - Geração de relatórios detalhados de operações bancárias e cálculo automático de tributações para
-                     eficácia no
-                     gerenciamento financeiro.<br>
-                     - Uso de enum para representar tipos de transações e categorias tributárias, melhorando a
-                     legibilidade e estrutura do
-                     código.<br>
-                     - Implementação de tratamento de erros proativo para garantir a estabilidade do programa mesmo
-                     diante de problemas
-                     inesperados.<br><br>
-                     Esses projetos demonstram habilidades variadas, desde o desenvolvimento de aplicativos móveis até a
-                     criação de
-                     sistemas robustos em Java, utilizando diferentes tecnologias e aplicando conceitos essenciais de
-                     programação e
-                     desenvolvimento de software.<br><br>
-                  </p>
-               </div>
-            </div>
-         </div>
-
-      </section>
-
-      <section class="desafios">
-         <h1 class="titulo">Tecnologias</h1>
-         <div class="centralizar--sessao">
-            <div class="sobre--container">
-               <img loading="lazy"
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
-                  class="tecnologias--img" />
-               <img loading="lazy"
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
-                  class="tecnologias--img" />
-               <img loading="lazy"
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
-                  class="tecnologias--img" />
-               <img loading="lazy"
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
-                  class="tecnologias--img" />
-               <img loading="lazy"
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
-                  class="tecnologias--img" />
-               <img loading="lazy"
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
-                  class="tecnologias--img" />
-               <img loading="lazy"
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg"
-                  class="tecnologias--img" />
-               <img loading="lazy"
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg"
-                  class="tecnologias--img" />
-               <img loading="lazy"
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
-                  class="tecnologias--img" />
-               <img loading="lazy"
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg"
-                  class="tecnologias--img" />
-               <img loading="lazy"
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
-                  class="tecnologias--img" />
-               <img loading="lazy"
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg"
-                  class="tecnologias--img" />
-               <img loading="lazy"
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg"
-                  class="tecnologias--img" />
-               <img loading="lazy"
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
-                  class="tecnologias--img" />
-               <img loading="lazy"
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
-                  class="tecnologias--img" />
-               <img loading="lazy"
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gimp/gimp-original.svg"
-                  class="tecnologias--img" />
-               <img loading="lazy"
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"
-                  class="tecnologias--img" />
-            </div>
-         </div>
-
-      </section>
-
-      <section class="desafios"
-         id="Projetos">
-
-         <h1 class="titulo">Projetos</h1>
-
-         <div class="projetos--container">
-
-            <!-- POKEDEX -->
-            <div class="card">
-               <h3 class="card--titulo">Pokédex</h3>
-               <a href="https://juliafclima.github.io/pokedex/src/pages/index.html"
-                  target="_blank"
-                  rel="noopener noreferrer">
-                  <img class="img--card"
-                     src="../images/pokedex-capa.png"
-                     alt="Tumbnail do site Links">
-               </a>
-               <div class="container--botao">
-                  <a href="https://github.com/juliafclima/pokedex"
-                     target="_blank"
-                     rel="noopener noreferrer"
-                     class="card--botao"><img style="height: 20px"
-                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
-                        alt=""></a>
-                  <a href="https://juliafclima.github.io/pokedex/src/pages/index.html"
-                     target="_blank"
-                     rel="noopener noreferrer"
-                     class="card--botao"><img class="imagemTroca"
-                        style="height: 20px"
-                        src="../images/iconinternet.png"
-                        alt=""></a>
-               </div>
-            </div>
-
-            <!-- NÚMEROS SECRETOS -->
-            <div class="card">
-               <h3 class="card--titulo">Números secretos</h3>
-               <a href="https://adivinhar-numero-chi.vercel.app/"
-                  target="_blank"
-                  rel="noopener noreferrer">
-                  <img class="img--card"
-                     src="../images/numerosSecretos.png"
-                     alt="Tumbnail do site Links">
-               </a>
-               <div class="container--botao">
-                  <a href="https://github.com/juliafclima/adivinhar-numero"
-                     target="_blank"
-                     rel="noopener noreferrer"
-                     class="card--botao"><img style="height: 20px"
-                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
-                        alt=""></a>
-                  <a href="https://adivinhar-numero-chi.vercel.app/"
-                     target="_blank"
-                     rel="noopener noreferrer"
-                     class="card--botao"><img class="imagemTroca"
-                        style="height: 20px"
-                        src="../images/iconinternet.png"
-                        alt=""></a>
-               </div>
-            </div>
-
-            <!-- STARBUCKS -->
-            <div class="card">
-               <h3 class="card--titulo">Starbucks</h3>
-               <a href="https://juliafclima.github.io/projeto-starbucks/pages/"
-                  target="_blank"
-                  rel="noopener noreferrer">
-                  <img class="img--card"
-                     src="../images/STARBUCKS.png"
-                     alt="Tumbnail do site Links">
-               </a>
-               <div class="container--botao">
-                  <a href="https://github.com/juliafclima/projeto-starbucks"
-                     target="_blank"
-                     rel="noopener noreferrer"
-                     class="card--botao"><img style="height: 20px"
-                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
-                        alt=""></a>
-
-                  <a href="https://juliafclima.github.io/projeto-starbucks/pages/"
-                     target="_blank"
-                     rel="noopener noreferrer"
-                     class="card--botao"><img class="imagemTroca"
-                        style="height: 20px"
-                        src="../images/iconinternet.png"
-                        alt=""></a>
-               </div>
-            </div>
-
-            <!-- CALCULADORA IMC REACT -->
-            <div class="card">
-               <h3 class="card--titulo">Calculadora IMC</h3>
-               <a href="https://projeto-calculadora-imc-react.vercel.app/"
-                  target="_blank"
-                  rel="noopener noreferrer">
-                  <img class="img--card"
-                     src="../images/projetoCalcularIMC.png"
-                     alt="Tumbnail do site Links">
-               </a>
-               <div class="container--botao">
-                  <a href="https://github.com/juliafclima/projeto-calculadora-imc-react"
-                     target="_blank"
-                     rel="noopener noreferrer"
-                     class="card--botao"><img style="height: 20px"
-                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
-                        alt=""></a>
-                  <a href="https://projeto-calculadora-imc-react.vercel.app/"
-                     target="_blank"
-                     rel="noopener noreferrer"
-                     class="card--botao"><img class="imagemTroca"
-                        style="height: 20px"
-                        src="../images/iconinternet.png"
-                        alt=""></a>
-               </div>
-            </div>
-
-            <!-- JOGO DA COBRINHA -->
-            <div class="card">
-               <h3 class="card--titulo">Jogo da Cobrinha</h3>
-               <a href="https://juliafclima.github.io/projeto-snake-game/html/index.html"
-                  target="_blank"
-                  rel="noopener noreferrer">
-                  <img class="img--card"
-                     src="../images/jogoCobrinha.png"
-                     alt="Tumbnail do site Links">
-               </a>
-               <div class="container--botao">
-                  <a href="https://github.com/juliafclima/projeto-snake-game"
-                     target="_blank"
-                     rel="noopener noreferrer"
-                     class="card--botao"><img style="height: 20px"
-                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
-                        alt=""></a>
-                  <a href="https://juliafclima.github.io/projeto-snake-game/html/index.html"
-                     target="_blank"
-                     rel="noopener noreferrer"
-                     class="card--botao"><img class="imagemTroca"
-                        style="height: 20px"
-                        src="../images/iconinternet.png"
-                        alt=""></a>
-               </div>
-            </div>
-
-            <!-- CORDEL MODERNO -->
-            <div class="card">
-               <h3 class="card--titulo">Cordel Moderno</h3>
-               <a href="https://juliafclima.github.io/projeto-cordel/"
-                  target="_blank"
-                  rel="noopener noreferrer">
-                  <img class="img--card"
-                     src="../images/cordelModerno.png"
-                     alt="Tumbnail do site Links">
-               </a>
-               <div class="container--botao">
-                  <a href="https://github.com/juliafclima/projeto-cordel"
-                     target="_blank"
-                     rel="noopener noreferrer"
-                     class="card--botao"><img style="height: 20px"
-                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
-                        alt=""></a>
-                  <a href="https://juliafclima.github.io/projeto-cordel/"
-                     target="_blank"
-                     rel="noopener noreferrer"
-                     class="card--botao"><img class="imagemTroca"
-                        style="height: 20px"
-                        src="../images/iconinternet.png"
-                        alt=""></a>
-               </div>
-            </div>
-
-            <!-- CAROL SHAW -->
-            <div class="card">
-               <h3 class="card--titulo">Carol Shaw</h3>
-               <a href="https://juliafclima.github.io/projetoFinalWoMakersCode/Index.HTML"
-                  target="_blank"
-                  rel="noopener noreferrer">
-                  <img class="img--card"
-                     src="../images/carolShaw.png"
-                     alt="Tumbnail do site Links">
-               </a>
-               <div class="container--botao">
-                  <a href="https://github.com/juliafclima/projetoFinalWoMakersCode"
-                     target="_blank"
-                     rel="noopener noreferrer"
-                     class="card--botao"><img style="height: 20px"
-                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
-                        alt=""></a>
-                  <a href="https://juliafclima.github.io/projetoFinalWoMakersCode/Index.HTML"
-                     target="_blank"
-                     rel="noopener noreferrer"
-                     class="card--botao"><img class="imagemTroca"
-                        style="height: 20px"
-                        src="../images/iconinternet.png"
-                        alt=""></a>
-               </div>
-            </div>
-
-            <!-- MASCOTE ANDROID -->
-            <div class="card">
-               <h3 class="card--titulo"
-                  style="font-size: 26px;">Mascote do Android</h3>
-               <a href="https://juliafclima.github.io/projeto-android/"
-                  target="_blank"
-                  rel="noopener noreferrer">
-                  <img class="img--card"
-                     src="../images/projetoAndroid.png"
-                     alt="Tumbnail do site Links">
-               </a>
-               <div class="container--botao">
-                  <a href="https://github.com/juliafclima/projeto-android"
-                     target="_blank"
-                     rel="noopener noreferrer"
-                     class="card--botao"><img style="height: 20px"
-                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
-                        alt=""></a>
-                  <a href="https://juliafclima.github.io/projeto-android/"
-                     target="_blank"
-                     rel="noopener noreferrer"
-                     class="card--botao"><img class="imagemTroca"
-                        style="height: 20px"
-                        src="../images/iconinternet.png"
-                        alt=""></a>
-               </div>
-            </div>
-
-            <!-- EM CONSTRUCAO -->
-            <div class="card">
-               <h3 class="card--titulo"
-                  style="font-size: 20px;">/* em construção... */</h3>
-               <a href="https://www.linkedin.com/in/juliafclima/"
-                  target="_blank"
-                  rel="noopener noreferrer">
-                  <img class="img--card"
-                     src="../images/aguarde.jpg"
-                     alt="Tumbnail do site Links">
-               </a>
-               <div class="container--botao">
-                  <a href="https://github.com/juliafclima"
-                     target="_blank"
-                     rel="noopener noreferrer"
-                     class="card--botao"><img style="height: 20px"
-                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
-                        alt=""></a>
-                  <a href="https://www.linkedin.com/in/juliafclima/"
-                     target="_blank"
-                     rel="noopener noreferrer"
-                     class="card--botao"><img class="imagemTroca"
-                        style="height: 20px"
-                        src="../images/iconinternet.png"
-                        alt=""></a>
-               </div>
-            </div>
-         </div>
-      </section>
-   </main>
-
-   <footer class="footer"
-      id="Contatos">
-      <p class="contato">Site desenvolvido por <a href="https://www.linkedin.com/in/juliafclima/"
+        <span class="header--logo"
+          ><a
+            href="https://www.linkedin.com/in/juliafclima/"
             target="_blank"
-            style="color: white;">Julia Lima</a></p>
-   </footer>
-</body>
+            style="color: white"
+            >@Juliafclima</a
+          ></span
+        >
+      </div>
+    </header>
 
+    <main>
+      <div class="introducao">
+        <div class="introducao--container">
+          <div class="container">
+            <div>
+              <h2 class="introducao--titulo">
+                <span class="introducao--titulo-color"
+                  ><a
+                    href="https://www.linkedin.com/in/juliafclima/"
+                    target="_blank"
+                    style="color: #264d70b6"
+                    >Júlia Lima,</a
+                  ></span
+                >
+                <br />
+                <span
+                  class="introducao--titulo-aumentar"
+                  id="texto-maquina"
+                ></span>
+              </h2>
+              <div class="introducao--links">
+                <a
+                  href="https://www.linkedin.com/in/juliafclima/"
+                  #303057
+                  class="introducao-cv"
+                  target="_blank"
+                  >LinkedIn</a
+                >
+
+                <a
+                  href="https://github.com/juliafclima"
+                  class="introducao-cv"
+                  target="_blank"
+                  >GitHub</a
+                >
+              </div>
+            </div>
+            <div>
+              <img
+                src="../images/fotoJulia.png"
+                alt="Minha foto"
+                class="introducao--img"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section class="desafios">
+        <h1 class="titulo">Sobre</h1>
+        <div class="centralizar--sessao">
+          <div class="sobre--container">
+            <div class="sobre--container-perfil">
+              <p class="sobre--descricao">
+                Olá, tudo bem?<br /><br />
+                Sou a Júlia, Desenvolvedora Front-End e atualmente estou
+                cursando o 6º período do bacharelado de Sistemas da Informação
+                na Universidade Estácio de Sá.<br /><br />
+                Entusiasta de tecnologia em busca de conhecimentos!<br /><br />
+                Iniciei meu contato com a computação em um curso de Montagem e
+                Manutenção de computadores terminado em junho/2015. Desde então
+                venho me desafiando nesse mundo de possibilidades que é a
+                programação.<br /><br />
+                Em 2023 tive a honra de participar do programa de residência em
+                TIC/Software oferecido pelo Parque Tecnológico Região
+                Serrana/SERRATEC no curso de Desenvolvedor Full-Stack.
+                Aprofundei meus conhecimentos em diversas áreas, incluindo:<br /><br />
+                - Lógica de Programação<br />
+                - Programação Web com foco em HTML5, CSS3, JavaScript<br />
+                - Utilização de Banco de Dados, especificamente PostgreSQL<br />
+                - Aplicação de POO (Programação Orientada a Objetos) com Java<br />
+                - Utilização de Python para diferentes propósitos<br />
+                - Modelagem de Sistemas e Estrutura de Dados<br />
+                - Experiência com Git e Github para controle de versão e
+                colaboração<br />
+                - Aplicação prática da Linguagem Unificada de Modelagem (UML)<br />
+                - Trabalho em equipe utilizando Métodos Ágeis<br /><br />
+                Durante esse programa, participei ativamente de projetos
+                desafiadores, incluindo:<br /><br />
+                1. <strong>Aplicativo de Gerenciamento para E-Commerce:</strong
+                ><br />
+                - Interface de usuário fluida utilizando React Native.<br />
+                - Desenvolvimento de um aplicativo utilizando Stack e Tab
+                Navigator para uma navegação eficiente.<br />
+                - Implementação de um contexto para garantir acesso exclusivo a
+                usuários autenticados, priorizando a segurança.<br />
+                - Funcionalidades completas de gerenciamento de produtos, com
+                operações CRUD usando Axios e validação de inputs.<br />
+                - Capacidade para criar, apagar e editar produtos, oferecendo
+                uma experiência completa aos usuários.<br />
+                - Adição de funcionalidades para login de colaboradores e
+                cadastro de novos funcionários, ampliando a abrangência da
+                aplicação.<br /><br />
+                2. <strong>Marvelgram:</strong><br />
+                - Desenvolvimento de uma aplicação com uma interface semelhante
+                ao Instagram, com recursos que incluem visualização de histórias
+                e interação social.<br />
+                - Utilização do React Native para uma experiência de usuário
+                mais fluída e interativa.<br /><br />
+                3. <strong>Sistema Bancário:</strong><br />
+                - Desenvolvimento de um sistema bancário aplicando os princípios
+                dos 4 pilares da POO: Encapsulamento, Herança, Polimorfismo e
+                Abstração.<br />
+                - Funcionalidade para entrada de dados a partir de um arquivo,
+                permitindo a integração com sistemas externos e facilitando o
+                gerenciamento de informações dos clientes.<br />
+                - Geração de relatórios detalhados de operações bancárias e
+                cálculo automático de tributações para eficácia no gerenciamento
+                financeiro.<br />
+                - Uso de enum para representar tipos de transações e categorias
+                tributárias, melhorando a legibilidade e estrutura do código.<br />
+                - Implementação de tratamento de erros proativo para garantir a
+                estabilidade do programa mesmo diante de problemas
+                inesperados.<br /><br />
+                Esses projetos demonstram habilidades variadas, desde o
+                desenvolvimento de aplicativos móveis até a criação de sistemas
+                robustos em Java, utilizando diferentes tecnologias e aplicando
+                conceitos essenciais de programação e desenvolvimento de
+                software.<br /><br />
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="desafios">
+        <h1 class="titulo">Tecnologias</h1>
+        <div class="centralizar--sessao">
+          <div class="sobre--container">
+            <img
+              loading="lazy"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+              class="tecnologias--img"
+            />
+            <img
+              loading="lazy"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+              class="tecnologias--img"
+            />
+            <img
+              loading="lazy"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+              class="tecnologias--img"
+            />
+            <img
+              loading="lazy"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+              class="tecnologias--img"
+            />
+            <img
+              loading="lazy"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+              class="tecnologias--img"
+            />
+            <img
+              loading="lazy"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+              class="tecnologias--img"
+            />
+            <img
+              loading="lazy"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg"
+              class="tecnologias--img"
+            />
+            <img
+              loading="lazy"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg"
+              class="tecnologias--img"
+            />
+            <img
+              loading="lazy"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+              class="tecnologias--img"
+            />
+            <img
+              loading="lazy"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg"
+              class="tecnologias--img"
+            />
+            <img
+              loading="lazy"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+              class="tecnologias--img"
+            />
+            <img
+              loading="lazy"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg"
+              class="tecnologias--img"
+            />
+            <img
+              loading="lazy"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg"
+              class="tecnologias--img"
+            />
+            <img
+              loading="lazy"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
+              class="tecnologias--img"
+            />
+            <img
+              loading="lazy"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
+              class="tecnologias--img"
+            />
+            <img
+              loading="lazy"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gimp/gimp-original.svg"
+              class="tecnologias--img"
+            />
+            <img
+              loading="lazy"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"
+              class="tecnologias--img"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="desafios" id="Projetos">
+        <h1 class="titulo">Projetos</h1>
+
+        <div class="projetos--container">
+          <!-- POKEDEX -->
+          <div class="card">
+            <h3 class="card--titulo">Pokédex</h3>
+            <a
+              href="https://juliafclima.github.io/pokedex/src/pages/index.html"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                class="img--card"
+                src="../images/pokedex-capa.png"
+                alt="Tumbnail do site Links"
+              />
+            </a>
+            <div class="container--botao">
+              <a
+                href="https://github.com/juliafclima/pokedex"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="card--botao"
+                ><img
+                  style="height: 20px"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                  alt=""
+              /></a>
+              <a
+                href="https://juliafclima.github.io/pokedex/src/pages/index.html"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="card--botao"
+                ><img
+                  class="imagemTroca"
+                  style="height: 20px"
+                  src="../images/iconinternet.png"
+                  alt=""
+              /></a>
+            </div>
+          </div>
+
+          <!-- NÚMEROS SECRETOS -->
+          <div class="card">
+            <h3 class="card--titulo">Números secretos</h3>
+            <a
+              href="https://adivinhar-numero-chi.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                class="img--card"
+                src="../images/numerosSecretos.png"
+                alt="Tumbnail do site Links"
+              />
+            </a>
+            <div class="container--botao">
+              <a
+                href="https://github.com/juliafclima/adivinhar-numero"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="card--botao"
+                ><img
+                  style="height: 20px"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                  alt=""
+              /></a>
+              <a
+                href="https://adivinhar-numero-chi.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="card--botao"
+                ><img
+                  class="imagemTroca"
+                  style="height: 20px"
+                  src="../images/iconinternet.png"
+                  alt=""
+              /></a>
+            </div>
+          </div>
+
+          <!-- STARBUCKS -->
+          <div class="card">
+            <h3 class="card--titulo">Starbucks</h3>
+            <a
+              href="https://juliafclima.github.io/projeto-starbucks/pages/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                class="img--card"
+                src="../images/STARBUCKS.png"
+                alt="Tumbnail do site Links"
+              />
+            </a>
+            <div class="container--botao">
+              <a
+                href="https://github.com/juliafclima/projeto-starbucks"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="card--botao"
+                ><img
+                  style="height: 20px"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                  alt=""
+              /></a>
+
+              <a
+                href="https://juliafclima.github.io/projeto-starbucks/pages/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="card--botao"
+                ><img
+                  class="imagemTroca"
+                  style="height: 20px"
+                  src="../images/iconinternet.png"
+                  alt=""
+              /></a>
+            </div>
+          </div>
+
+          <!-- CALCULADORA IMC REACT -->
+          <div class="card">
+            <h3 class="card--titulo">Calculadora IMC</h3>
+            <a
+              href="https://projeto-calculadora-imc-react.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                class="img--card"
+                src="../images/projetoCalcularIMC.png"
+                alt="Tumbnail do site Links"
+              />
+            </a>
+            <div class="container--botao">
+              <a
+                href="https://github.com/juliafclima/projeto-calculadora-imc-react"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="card--botao"
+                ><img
+                  style="height: 20px"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                  alt=""
+              /></a>
+              <a
+                href="https://projeto-calculadora-imc-react.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="card--botao"
+                ><img
+                  class="imagemTroca"
+                  style="height: 20px"
+                  src="../images/iconinternet.png"
+                  alt=""
+              /></a>
+            </div>
+          </div>
+
+          <!-- JOGO DA COBRINHA -->
+          <div class="card">
+            <h3 class="card--titulo">Jogo da Cobrinha</h3>
+            <a
+              href="https://juliafclima.github.io/projeto-snake-game/html/index.html"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                class="img--card"
+                src="../images/jogoCobrinha.png"
+                alt="Tumbnail do site Links"
+              />
+            </a>
+            <div class="container--botao">
+              <a
+                href="https://github.com/juliafclima/projeto-snake-game"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="card--botao"
+                ><img
+                  style="height: 20px"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                  alt=""
+              /></a>
+              <a
+                href="https://juliafclima.github.io/projeto-snake-game/html/index.html"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="card--botao"
+                ><img
+                  class="imagemTroca"
+                  style="height: 20px"
+                  src="../images/iconinternet.png"
+                  alt=""
+              /></a>
+            </div>
+          </div>
+
+          <!-- CORDEL MODERNO -->
+          <div class="card">
+            <h3 class="card--titulo">Cordel Moderno</h3>
+            <a
+              href="https://juliafclima.github.io/projeto-cordel/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                class="img--card"
+                src="../images/cordelModerno.png"
+                alt="Tumbnail do site Links"
+              />
+            </a>
+            <div class="container--botao">
+              <a
+                href="https://github.com/juliafclima/projeto-cordel"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="card--botao"
+                ><img
+                  style="height: 20px"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                  alt=""
+              /></a>
+              <a
+                href="https://juliafclima.github.io/projeto-cordel/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="card--botao"
+                ><img
+                  class="imagemTroca"
+                  style="height: 20px"
+                  src="../images/iconinternet.png"
+                  alt=""
+              /></a>
+            </div>
+          </div>
+
+          <!-- CAROL SHAW -->
+          <div class="card">
+            <h3 class="card--titulo">Carol Shaw</h3>
+            <a
+              href="https://juliafclima.github.io/projetoFinalWoMakersCode/Index.HTML"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                class="img--card"
+                src="../images/carolShaw.png"
+                alt="Tumbnail do site Links"
+              />
+            </a>
+            <div class="container--botao">
+              <a
+                href="https://github.com/juliafclima/projetoFinalWoMakersCode"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="card--botao"
+                ><img
+                  style="height: 20px"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                  alt=""
+              /></a>
+              <a
+                href="https://juliafclima.github.io/projetoFinalWoMakersCode/Index.HTML"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="card--botao"
+                ><img
+                  class="imagemTroca"
+                  style="height: 20px"
+                  src="../images/iconinternet.png"
+                  alt=""
+              /></a>
+            </div>
+          </div>
+
+          <!-- MASCOTE ANDROID -->
+          <div class="card">
+            <h3 class="card--titulo" style="font-size: 26px">
+              Mascote do Android
+            </h3>
+            <a
+              href="https://juliafclima.github.io/projeto-android/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                class="img--card"
+                src="../images/projetoAndroid.png"
+                alt="Tumbnail do site Links"
+              />
+            </a>
+            <div class="container--botao">
+              <a
+                href="https://github.com/juliafclima/projeto-android"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="card--botao"
+                ><img
+                  style="height: 20px"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                  alt=""
+              /></a>
+              <a
+                href="https://juliafclima.github.io/projeto-android/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="card--botao"
+                ><img
+                  class="imagemTroca"
+                  style="height: 20px"
+                  src="../images/iconinternet.png"
+                  alt=""
+              /></a>
+            </div>
+          </div>
+
+          <!-- EM CONSTRUCAO -->
+          <div class="card">
+            <h3 class="card--titulo" style="font-size: 20px">
+              /* em construção... */
+            </h3>
+            <a
+              href="https://www.linkedin.com/in/juliafclima/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                class="img--card"
+                src="../images/aguarde.jpg"
+                alt="Tumbnail do site Links"
+              />
+            </a>
+            <div class="container--botao">
+              <a
+                href="https://github.com/juliafclima"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="card--botao"
+                ><img
+                  style="height: 20px"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                  alt=""
+              /></a>
+              <a
+                href="https://www.linkedin.com/in/juliafclima/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="card--botao"
+                ><img
+                  class="imagemTroca"
+                  style="height: 20px"
+                  src="../images/iconinternet.png"
+                  alt=""
+              /></a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer" id="Contatos">
+      <p class="contato">
+        Site desenvolvido por
+        <a
+          href="https://www.linkedin.com/in/juliafclima/"
+          target="_blank"
+          style="color: white"
+          >Julia Lima</a
+        >
+      </p>
+    </footer>
+
+    <script src="../js/animarTexto.js"></script>
+  </body>
 </html>
