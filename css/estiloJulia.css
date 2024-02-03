@@ -44,6 +44,7 @@ main {
   color: #fefefe;
   width: 100%;
   padding-top: 0.625rem;
+  padding-bottom: 10px;
 }
 
 .introducao,
@@ -245,4 +246,17 @@ main {
   flex-direction: row;
   justify-content: space-between;
   margin-top: 16vw;
+}
+
+.header__link {
+  padding: 10px 20px;
+  color: #fefefe;
+  text-decoration: none;
+  transition: 0.6s;
+}
+
+.header__link:hover {
+  color: var(--cor-2);
+  background-color: var(--cor-3);
+  border-radius: 50px;
 }
