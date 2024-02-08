@@ -1,0 +1,60 @@
+/* redes sociais */
+.bn5 {
+  background-image: linear-gradient(to right, #006175 0%, #51748b 100%);
+  border-radius: 40px;
+  box-sizing: border-box;
+  color: #fff;
+  display: block;
+  height: 50px;
+  font-size: 1.4em;
+  position: relative;
+  text-decoration: none;
+  width: 7em;
+  z-index: 2;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px,
+    rgba(17, 17, 26, 0.05) 0px 8px 32px;
+  margin-right: 10px;
+}
+
+.bn5:hover {
+  color: #fff;
+}
+
+.bn5 .bn5span {
+  align-items: center;
+  background: #333333;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  transition: background 0.5s ease;
+  width: 100%;
+}
+
+.bn5:hover .bn5span {
+  background: transparent;
+}
+
+/* navbar */
+.bn3637 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.7rem 2rem;
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  backface-visibility: hidden;
+  border: 0.3rem solid transparent;
+  border-radius: 3rem;
+}
+.bn38 {
+  border-color: transparent;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.bn38:hover {
+  background-color: #60605e;
+}
