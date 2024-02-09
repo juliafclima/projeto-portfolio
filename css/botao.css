@@ -1,9 +1,13 @@
-/* redes sociais */
+/* Estilos para os botões de redes sociais */
 .bn5 {
-  background-image: linear-gradient(to right, #006175 0%, #51748b 100%);
-  border-radius: 40px;
+  background-image: linear-gradient(
+    to right,
+    #006175 0%,
+    #51748b 100%
+  ); /* Gradiente de cores de fundo */
+  border-radius: 40px; /* Borda arredondada */
   box-sizing: border-box;
-  color: #fff;
+  color: #fff; /* Cor do texto */
   display: block;
   height: 50px;
   font-size: 1.4em;
@@ -12,30 +16,30 @@
   width: 7em;
   z-index: 2;
   box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px,
-    rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    /* Sombra */ rgba(17, 17, 26, 0.05) 0px 8px 32px;
   margin-right: 10px;
 }
 
 .bn5:hover {
-  color: #fff;
+  color: #fff; /* Cor do texto ao passar o mouse */
 }
 
 .bn5 .bn5span {
   align-items: center;
-  background: #333333;
-  border-radius: 40px;
+  background: #333333; /* Cor de fundo do botão */
+  border-radius: 40px; /* Borda arredondada */
   display: flex;
   justify-content: center;
   height: 100%;
-  transition: background 0.5s ease;
+  transition: background 0.5s ease; /* Transição suave da cor de fundo */
   width: 100%;
 }
 
 .bn5:hover .bn5span {
-  background: transparent;
+  background: transparent; /* Cor de fundo transparente ao passar o mouse */
 }
 
-/* navbar */
+/* Estilos para os botões da navbar */
 .bn3637 {
   display: inline-flex;
   align-items: center;
@@ -45,16 +49,17 @@
   font-size: 18px;
   text-align: center;
   text-decoration: none;
-  color: #fff;
+  color: #fff; /* Cor do texto */
   backface-visibility: hidden;
   border: 0.3rem solid transparent;
-  border-radius: 3rem;
+  border-radius: 3rem; /* Borda arredondada */
 }
+
 .bn38 {
   border-color: transparent;
-  transition: background-color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out; /* Transição suave da cor de fundo */
 }
 
 .bn38:hover {
-  background-color: #60605e;
+  background-color: #60605e; /* Cor de fundo ao passar o mouse */
 }
