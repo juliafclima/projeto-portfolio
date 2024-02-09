@@ -1,15 +1,19 @@
+/* Importando fonte do Google Fonts */
 @import url(https://fonts.googleapis.com/css?family=Cabin+Condensed);
 
+/* Estilos para links */
 a {
   text-decoration: none;
 }
 
+/* Estilos para o conteúdo principal */
 main {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
+/* Estilos para os containers de introdução, sobre, tecnologias e projetos */
 .introducao--container,
 .sobre--container,
 .tecnologias,
@@ -20,6 +24,7 @@ main {
   box-sizing: border-box;
 }
 
+/* Estilos para o título */
 .titulo {
   text-align: center;
   margin-bottom: 1.875rem;
@@ -31,12 +36,14 @@ main {
   width: 100vw;
 }
 
+/* Estilos para o logo do header */
 .header--logo {
   padding-left: 0.625rem;
   font-size: 1.5rem;
   display: block;
 }
 
+/* Estilos para o container do header */
 .header--container {
   display: flex;
   justify-content: space-between;
@@ -49,6 +56,7 @@ main {
   padding-bottom: 10px;
 }
 
+/* Estilos para o SVG */
 svg {
   font-weight: bold;
   max-width: 250px;
@@ -57,6 +65,7 @@ svg {
   font-family: "Cabin Condensed", sans-serif;
 }
 
+/* Estilos para o underscore do console */
 .console-underscore {
   display: inline-block;
   position: relative;
@@ -64,6 +73,7 @@ svg {
   left: 5px;
 }
 
+/* Estilos para a introdução */
 .introducao,
 .introducao--container {
   display: flex;
@@ -71,6 +81,7 @@ svg {
   align-items: center;
 }
 
+/* Estilos para o título da introdução */
 .introducao--titulo {
   font-size: 0.9em;
   text-align: center;
@@ -79,6 +90,7 @@ svg {
   line-height: 1.5;
 }
 
+/* Estilos para aumentar o tamanho do título da introdução */
 .introducao--titulo-aumentar {
   font-size: 1.5em;
   color: rgba(21, 21, 21, 0.81);
@@ -86,6 +98,7 @@ svg {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
+/* Estilos para a cor do título da introdução */
 .introducao--titulo-color {
   color: var(--cor-3);
   font-size: 3em;
@@ -94,10 +107,12 @@ svg {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
+/* Estilos para o hover do título da introdução */
 .introducao--titulo-color:hover {
   text-decoration: underline;
 }
 
+/* Estilos para o link do CV na introdução */
 .introducao-cv {
   padding: 10px 20px;
   background: #fefefe;
@@ -109,12 +124,14 @@ svg {
   box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 }
 
+/* Estilos para o hover do link do CV na introdução */
 .introducao-cv:hover {
   color: var(--cor-2);
   background-color: var(--cor-3);
   padding: 0.75rem 1.375rem;
 }
 
+/* Estilos para a imagem da introdução */
 .introducao--img {
   width: 100%;
   max-width: 450px;
@@ -124,12 +141,14 @@ svg {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
+/* Estilos para os links da introdução */
 .introducao--links {
   margin-top: 10px;
   display: flex;
   justify-content: center;
 }
 
+/* Estilos para o container do sobre e as cards */
 .sobre--container,
 .card {
   background-color: #fefefee8;
@@ -138,6 +157,7 @@ svg {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
+/* Estilos para a descrição do sobre */
 .sobre--descricao {
   font-size: 1.5rem;
   text-align: center;
@@ -145,33 +165,39 @@ svg {
   padding: 1.25rem;
 }
 
+/* Estilos para as imagens das tecnologias */
 .tecnologias--img {
   width: 40px;
   height: 40px;
 }
 
+/* Estilos para o container do sobre */
 .sobre--container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
+/* Estilos para centralizar sessão */
 .centralizar--sessao {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+/* Estilos para as imagens das tecnologias */
 .tecnologias--img {
   width: calc(25% - 10px);
   margin-bottom: 20px;
   margin-top: 20px;
 }
 
+/* Estilos para os projetos */
 .projetos {
   margin-top: 3.125rem;
 }
 
+/* Estilos para o container dos projetos */
 .projetos--container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -179,6 +205,7 @@ svg {
   margin: 0 3.438rem;
 }
 
+/* Estilos para o footer */
 .footer {
   background-color: var(--cor-3);
   padding: 0.225rem;
@@ -188,11 +215,13 @@ svg {
   box-shadow: 0 -4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
+/* Estilos para o contato */
 .contato {
   text-align: center;
   margin-bottom: 3px;
 }
 
+/* Estilos para o container */
 .container {
   display: flex;
   flex-direction: row;
@@ -200,6 +229,7 @@ svg {
   margin-top: 16vw;
 }
 
+/* Estilos para os links do header */
 .header__link {
   padding: 10px 20px;
   color: #fefefe;
@@ -207,6 +237,7 @@ svg {
   transition: 0.6s;
 }
 
+/* Estilos para o hover dos links do header */
 .header__link:hover {
   color: var(--cor-2);
   background-color: var(--cor-3);

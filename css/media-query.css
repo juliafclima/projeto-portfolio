@@ -1,49 +1,59 @@
+/* Media query para telas com largura máxima de 768px */
 @media screen and (max-width: 768px) {
-    .container {
-       flex-direction: column;
-       align-items: center;
-       justify-content: center;
-    }
- 
-    .card {
-       margin: 1.875rem 0.625rem;
-    }
- 
-    .card--titulo {
-       font-size: 1.5rem;
-    }
- 
-    .img--card {
-       width: 100%;
-    }
- 
-    .projetos--container {
-       grid-template-columns: repeat(1, 1fr);
-       gap: 10px;
-       padding: 0 10px;
-    }
- 
-    .sobre--container,
-    .tecnologias,
-    .projetos,
-    .desafios {
-       width: 100%;
-       padding: 0 2.5%;
-       box-sizing: border-box;
-    }
- 
-    .introducao--titulo {
-       margin: 10px;
-       font-size: 1em;
-    }
- 
-    .introducao--img {
-       width: 100%;
-       max-width: 300px;
-       height: auto;
-    }
- 
-    .sobre--descricao {
-       font-size: 1.2em;
-    }
- }
+  /* Ajustando o layout do container */
+  .container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* Ajustando a margem do card */
+  .card {
+    margin: 1.875rem 0.625rem;
+  }
+
+  /* Ajustando o tamanho da fonte do título do card */
+  .card--titulo {
+    font-size: 1.5rem;
+  }
+
+  /* Ajustando a largura da imagem do card */
+  .img--card {
+    width: 100%;
+  }
+
+  /* Ajustando o layout de grid do container de projetos */
+  .projetos--container {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+    padding: 0 10px;
+  }
+
+  /* Ajustando a largura e o padding de vários containers */
+  .sobre--container,
+  .tecnologias,
+  .projetos,
+  .desafios {
+    width: 100%;
+    padding: 0 2.5%;
+    box-sizing: border-box;
+  }
+
+  /* Ajustando a margem e o tamanho da fonte do título de introdução */
+  .introducao--titulo {
+    margin: 10px;
+    font-size: 1em;
+  }
+
+  /* Ajustando a largura e a largura máxima da imagem de introdução */
+  .introducao--img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+  }
+
+  /* Ajustando o tamanho da fonte da descrição na seção "sobre" */
+  .sobre--descricao {
+    font-size: 1.2em;
+  }
+}
