@@ -25,7 +25,7 @@
     <link rel="stylesheet" href="../css/botao.css" />
     <link rel="stylesheet" href="../css/estiloJulia.css" />
     <link rel="stylesheet" href="../css/media-query.css" />
-    <title>Portfólio | Júlia Lima - Desenvolvedora Front-End</title>
+    <title>< Júlia Lima /></title>
   </head>
 
   <body>
@@ -84,9 +84,9 @@
           </text>
         </svg>
 
-        <div>
+        <div class="nav">
           <a href="#contato" class="header__link bn3637">Contato</a>
-          <a href="#sobre" class="header__link bn3637">Sobre</a>
+          <a href="#sobre" class="header__link bn3637">Sobre mim</a>
           <a href="#tecnologias" class="header__link bn3637">Tecnologias</a>
           <a href="#projetos" class="header__link bn3637">Projetos</a>
         </div>
@@ -188,7 +188,7 @@
       </div>
 
       <section class="desafios">
-        <h1 class="titulo" id="sobre">Sobre</h1>
+        <h1 class="titulo" id="sobre">Sobre mim</h1>
         <div class="centralizar--sessao">
           <div class="sobre--container">
             <div class="sobre--container-perfil">
@@ -196,26 +196,17 @@
                 Sou Desenvolvedora Front-End e atualmente estou cursando o 6º
                 período do bacharelado de Sistemas da Informação na Universidade
                 Estácio de Sá.<br /><br />
-                Iniciei meu contato com a computação em um curso de Montagem e
-                Manutenção de computadores terminado em junho/2015. Em 2023,
-                participei do programa de residência em TIC/Software oferecido
-                pelo Parque Tecnológico Região Serrana/SERRATEC no curso de
-                Desenvolvedor Full-Stack.<br /><br />
-                Possuo conhecimento em: <br />
+                <strong> Possuo conhecimento em: </strong><br />
                 - Lógica de Programação <br />
                 - HTML5, CSS3, JavaScript, TypeScript <br />
                 - Frameworks (React, React Native, Angular) <br />
                 - Node.js e Node Package Manager <br />
-                - Versionamento de código (Git
-                e Github) <br />
+                - Versionamento de código (Git e Github) <br />
                 - Banco de Dados (PostgreSQL)<br />
-                - Programação Orientada a
-                Objetos (Java) <br />
+                - Programação Orientada a Objetos (Java) <br />
                 - API RESTful (Spring Boot) <br />
-                - Python - Modelagem
-                de Sistemas e Estrutura de Dados <br />
-                - Linguagem Unificada de
-                Modelagem (UML) <br />
+                - Python - Modelagem de Sistemas e Estrutura de Dados <br />
+                - Linguagem Unificada de Modelagem (UML) <br />
                 - Métodos Ágeis (Scrum e Kanban)<br />
               </p>
             </div>
@@ -317,6 +308,32 @@
       </section>
 
       <section class="desafios" id="projetos">
+        <h1 class="titulo">Cursos</h1>
+        <div class="projetos--container">
+          <curso-card
+            titulo="Residência em TIC/Software 2023.2 - Serratec"
+            imagem="./images/diplomas/serratec.jpg"
+            link="https://www.linkedin.com/in/juliafclima/details/certifications/1704833334329/single-media-viewer/?profileId=ACoAADBHBo8BCorKcKmF2x1V7MwET03bLN2h3ng"
+          >
+          </curso-card>
+
+          <curso-card
+            titulo="Programador Full Stack 560h - Senai/Firjan"
+            imagem="./images/diplomas/diploma senai.jpg"
+            link="https://www.linkedin.com/in/juliafclima/details/certifications/1706806401681/single-media-viewer/?profileId=ACoAADBHBo8BCorKcKmF2x1V7MwET03bLN2h3ng"
+          >
+          </curso-card>
+
+          <curso-card
+            titulo="Desenvolvimento Front-End com Angular - Dio"
+            imagem="./images/diplomas/angular dio.jpg"
+            link="https://www.linkedin.com/in/juliafclima/details/certifications/1708454268704/single-media-viewer/?profileId=ACoAADBHBo8BCorKcKmF2x1V7MwET03bLN2h3ng"
+          >
+          </curso-card>
+        </div>
+      </section>
+
+      <section class="desafios" id="projetos">
         <h1 class="titulo">Projetos</h1>
 
         <div class="projetos--container">
@@ -383,7 +400,7 @@
 
     <footer class="footer" id="Contatos">
       <p class="contato">
-        © 2024 
+        © 2024
         <a
           href="https://www.linkedin.com/in/juliafclima/"
           target="_blank"
@@ -402,11 +419,12 @@
             />
           </svg>
         </a>
-        <br/>Todos os direitos reservados
+        <br />Todos os direitos reservados
       </p>
     </footer>
 
     <script src="../js/animarTexto.js" async></script>
     <script type="module" src="../js/projeto-card.js"></script>
+    <script type="module" src="js/cursos.js"></script>
   </body>
 </html>
