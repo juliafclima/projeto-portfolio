@@ -12,10 +12,9 @@ template.innerHTML = `
   .card {
     background-color: var(--cor-4);
     border-radius: 0.938rem;
-    margin: 1.875rem 1.25rem 0 1.25rem;
+    margin: 1.875rem 0.625rem 0 0.625rem;
     color: #fefefe;
     padding: 15px;
-    height: 350px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -31,16 +30,16 @@ template.innerHTML = `
   
   .img--card {
     max-width: 100%;
-    height: 200px;
+    height: auto; 
     cursor: zoom-in;
     object-fit: contain;
     transition: 0.6s;
     margin: auto;
-    display: flex;
-  }
-  
-  .card .img--card:hover {
-    outline: 0.25rem dashed #7c7cbf;
+    display: block;
+
+    &:hover {
+      outline: 0.25rem dashed #7c7cbf;
+    }
   }
   
   .card--botao {
@@ -54,12 +53,12 @@ template.innerHTML = `
     text-align: center;
     transition: background-color 0.6s, color 0.6s;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-  }
-  
-  .card--botao:hover {
-    background-color: #30305743;
-    color: #fefefe;
-    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+
+    &:hover {
+      background-color: #30305743;
+      color: #fefefe;
+      box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+    }
   }
   
   .container--botao {
@@ -67,6 +66,18 @@ template.innerHTML = `
     display: flex;
     justify-content: center;
   }
+
+  @media only screen and (max-width: 600px) {
+    .card {
+      height: auto;
+      margin: 1rem 0.625rem; 
+    }
+  
+    .img--card {
+      height: auto;
+    }
+  }
+  
   </style>
 
   <div class="card">

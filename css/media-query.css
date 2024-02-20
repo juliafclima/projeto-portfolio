@@ -18,9 +18,11 @@
     }
  
     .projetos--container {
-       grid-template-columns: repeat(1, 1fr);
-       gap: 10px;
-       padding: 0 10px;
+      grid-template-columns: repeat(1, 1fr); 
+      width: 300px;
+      gap: 10px;
+      padding: 0 10px;
+      margin: auto;
     }
  
     .sobre--container,
@@ -45,5 +47,12 @@
  
     .sobre--descricao {
        font-size: 1.2em;
+    }
+
+    .introducao--links {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
     }
  }
