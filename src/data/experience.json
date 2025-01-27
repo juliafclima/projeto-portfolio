@@ -1,0 +1,38 @@
+[
+  {
+    "role": "Desenvolvedor de Software Júnior II",
+    "company": "Neki",
+    "job": "CLT",
+    "serviceTime": "De Dezembro de 2024 até os dias atuais",
+    "time": "2 meses",
+    "local": "Petrópolis, Rio de Janeiro, Brasil",
+    "type": "Trabalho Remoto",
+    "description": [
+      ""
+    ]
+  },
+  {
+    "role": "Técnico em Desenvolvimento de Software",
+    "company": "Neki",
+    "job": "Cooperativa",
+    "serviceTime": "De Maio de 2024 até Dezembro de 2024",
+    "time": "8 meses",
+    "local": "Petrópolis, Rio de Janeiro, Brasil",
+    "type": "Trabalho Remoto",
+    "description": [
+      ""
+    ]
+  },
+  {
+    "role": "Residente de Desenvolvimento Full Stack",
+    "company": "Serratec",
+    "job": "Residência",
+    "serviceTime": "De Julho de 2023 até Dezembro de 2023",
+    "time": "6 meses",
+    "local": "Petrópolis, Rio de Janeiro, Brasil",
+    "type": "Trabalho Presencial / Trabalho Remoto",
+    "description": [
+      "Programa de qualificação nas áreas de Desenvolvimento de Software Full Stack, ágil e imersivo, conceitual prático, gratuito e de alto impacto socioeconômico na Região Serrana do Estado do Rio de Janeiro, operado pelo Serratec, em parceria com a Firjan/SENAI, Sinditec e outros parceiros."
+    ]
+  }
+]

@@ -1,0 +1,194 @@
+[
+  {
+    "title": "Gif Tok",
+    "deploy": "https://gif-tok-vue.vercel.app/",
+    "github": "https://github.com/juliafclima/gif-tok-vue",
+    "description": "",
+    "skills": [
+      "tailwindcss",
+      "typescript",
+      "vercel",
+      "html5",
+      "css3",
+      "reactjs",
+      "next-js",
+      "firebase"
+    ]
+  },
+  {
+    "title": "Adrianoteca",
+    "deploy": "https://www.adrianera5.com.br/",
+    "github": "",
+    "description": "",
+    "skills": [
+      "tailwindcss",
+      "typescript",
+      "vercel",
+      "html5",
+      "css3",
+      "reactjs",
+      "next-js",
+      "firebase"
+    ]
+  },
+  {
+    "title": "CodFarma",
+    "deploy": "",
+    "github": "https://github.com/juliafclima/",
+    "description": "",
+    "skills": [
+      "tailwindcss",
+      "typescript",
+      "vercel",
+      "html5",
+      "css3",
+      "reactjs",
+      "next-js",
+      "firebase"
+    ]
+  },
+  {
+    "title": "Marvelgram",
+    "deploy": "",
+    "github": "https://github.com/juliafclima/",
+    "description": "",
+    "skills": [
+      "tailwindcss",
+      "typescript",
+      "vercel",
+      "html5",
+      "css3",
+      "reactjs",
+      "next-js",
+      "firebase"
+    ]
+  },
+  {
+    "title": "Rekut",
+    "deploy": "",
+    "github": "https://github.com/juliafclima/",
+    "description": "",
+    "skills": [
+      "tailwindcss",
+      "typescript",
+      "vercel",
+      "html5",
+      "css3",
+      "reactjs",
+      "next-js",
+      "firebase"
+    ]
+  },
+  {
+    "title": "Starbucks",
+    "deploy": "https://juliafclima.github.io/projeto-starbucks/pages/",
+    "github": "https://github.com/juliafclima/projeto-starbucks",
+    "description": "",
+    "skills": [
+      "tailwindcss",
+      "typescript",
+      "vercel",
+      "html5",
+      "css3",
+      "reactjs",
+      "next-js",
+      "firebase"
+    ]
+  },
+  {
+    "title": "BuzzFeed Testes",
+    "deploy": "https://buzzfeed-angular-amber.vercel.app/",
+    "github": "https://github.com/juliafclima/buzzfeed_clone_angular",
+    "description": "",
+    "skills": [
+      "tailwindcss",
+      "typescript",
+      "vercel",
+      "html5",
+      "css3",
+      "reactjs",
+      "next-js",
+      "firebase"
+    ]
+  },
+  {
+    "title": "Pokédex",
+    "deploy": "https://juliafclima.github.io/pokedex/src/pages/index.html",
+    "github": "https://github.com/juliafclima/pokedex",
+    "description": "",
+    "skills": [
+      "tailwindcss",
+      "typescript",
+      "vercel",
+      "html5",
+      "css3",
+      "reactjs",
+      "next-js",
+      "firebase"
+    ]
+  },
+  {
+    "title": "Blog",
+    "deploy": "https://blog-seven-eta-11.vercel.app/",
+    "github": "https://github.com/juliafclima/Blog/",
+    "description": "",
+    "skills": [
+      "tailwindcss",
+      "typescript",
+      "vercel",
+      "html5",
+      "css3",
+      "reactjs",
+      "next-js",
+      "firebase"
+    ]
+  },
+  {
+    "title": "Números Secretos",
+    "deploy": "",
+    "github": "https://adivinhar-numero-chi.vercel.app/",
+    "description": "https://github.com/juliafclima/adivinhar-numero/",
+    "skills": [
+      "tailwindcss",
+      "typescript",
+      "vercel",
+      "html5",
+      "css3",
+      "reactjs",
+      "next-js",
+      "firebase"
+    ]
+  },
+  {
+    "title": "Snake Game",
+    "deploy": "",
+    "github": "https://juliafclima.github.io/projeto-snake-game/html/index.html/",
+    "description": "https://github.com/juliafclima/projeto-snake-game/",
+    "skills": [
+      "tailwindcss",
+      "typescript",
+      "vercel",
+      "html5",
+      "css3",
+      "reactjs",
+      "next-js",
+      "firebase"
+    ]
+  },
+  {
+    "title": "Cordel Moderno",
+    "deploy": "https://juliafclima.github.io/projeto-cordel/",
+    "github": "https://github.com/juliafclima/projeto-cordel/",
+    "description": "",
+    "skills": [
+      "tailwindcss",
+      "typescript",
+      "vercel",
+      "html5",
+      "css3",
+      "reactjs",
+      "next-js",
+      "firebase"
+    ]
+  }
+]

@@ -1,0 +1,79 @@
+[
+  {
+    "id": 1,
+    "company": "Universidade Estácio de Sá",
+    "course": "Sistemas da Informação",
+    "time": "De Fevereiro de 2021 até os dias atuais",
+    "description": [
+      "Formação voltada para o desenvolvimento de competências na área de tecnologia da informação, com foco na criação, implementação e gestão de sistemas computacionais que atendem às necessidades de empresas e organizações."
+    ],
+    "skills": [
+      "Codificação",
+      "Banco de Dados",
+      "Redes",
+      "Qualidade de Software",
+      "Metodologias Ágeis",
+      "Arquitetura de Software",
+      "Análise de Dados"
+    ]
+  },
+  {
+    "id": 2,
+    "company": "Oracle",
+    "course": "Programa Oracle Next Education Front-End",
+    "time": "Julho de 2024",
+    "description": [
+      "Iniciativa de qualificação profissional focada no desenvolvimento de habilidades para a criação de interfaces web dinâmicas e responsivas. Com ênfase no desenvolvimento Front-End, utilizando as principais ferramentas e frameworks da área, como HTML, CSS, JavaScript e React."
+    ],
+    "skills": [
+      "HTML5 e CSS3",
+      "Javascript",
+      "Typescript",
+      "React",
+      "Git e GitHub",
+      "Lógica de Programação",
+      "Styled Components",
+      "Next.JS"
+    ]
+  },
+  {
+    "id": 3,
+    "company": "DIO",
+    "course": "Desenvolvimento Front-End com Angular",
+    "time": "Fevereiro de 2024",
+    "description": [
+      "Curso focado no desenvolvimento de aplicações web utilizando o framework Angular. Este curso é voltado para pessoas interessadas em aprender a criar soluções dinâmicas, escaláveis e de alta performance para a web, com ênfase no desenvolvimento Front-End."
+    ],
+    "skills": [
+      "Angular.js",
+      "Javascript",
+      "Typescript",
+      "HTML5 e CSS3",
+      "Dados Dinâmicos",
+      "Data Binding"
+    ]
+  },
+  {
+    "id": 4,
+    "company": "Firjan SENAI",
+    "course": "Programador Full Stack ",
+    "time": "Dezembro de 2023 - 560 horas",
+    "description": [
+      "Programa de qualificação nas áreas de Desenvolvimento de Software Full Stack, ágil e imersivo, conceitual prático, gratuito e de alto impacto socioeconômico na Região Serrana do Estado do Rio de Janeiro, operado pelo Serratec, em parceria com a Firjan/SENAI, Sinditec e outros parceiros."
+    ],
+    "skills": [
+      "Lógica de Programação",
+      "API RestFull",
+      "Javascript",
+      "HTML5 e CSS3",
+      "Java",
+      "POO",
+      "React",
+      "React Native",
+      "SQL",
+      "Metodologias Ágeis",
+      "Banco de Dados",
+      "Git e GitHub"
+    ]
+  }
+]
