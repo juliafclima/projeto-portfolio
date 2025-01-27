@@ -41,11 +41,18 @@ export default function CourseItem(props: { item: ICourse; index: number }) {
           <ul className="mt-2 text-sm">
             {showMoreData &&
               item.description.map((text: string, index: number) => (
-                <li className="mb-2" key={index}>
-                  {" "}
-                  - {text}
-                </li>
+                <div key={index}>
+                  <li className="mb-2">- {text}</li>
+                  <Image
+                    className="w-full h-full object-cover"
+                    src={"/certificates/" + item.company + ".jpg"}
+                    alt="Imagem de Perfil da Júlia Lima"
+                    width={1000}
+                    height={800}
+                  />
+                </div>
               ))}
+
             <li className="flex">
               <div className="flex flex-wrap">
                 <strong className="pr-1">Competências: </strong>

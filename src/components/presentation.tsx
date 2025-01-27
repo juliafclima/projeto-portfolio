@@ -3,16 +3,13 @@ import { useContext } from "react";
 import contexto from "@/context/context";
 import Image from "next/image";
 import Informations from "./informations";
-import Message from "./message";
 
 export default function Presentation() {
-  const { showInformations, setShowInformations, sendMessage, setSendMessage } =
-    useContext(contexto);
+  const { showInformations, setShowInformations } = useContext(contexto);
 
   return (
     <div className="mt-5 mb-3 bg-white rounded-xl relative">
       {showInformations && <Informations />}
-      {sendMessage && <Message />}
       <div className="rounded-full absolute z-10 top-12 sm:top-20 md:top-28 left-2 sm:left-5">
         <Image
           className="rounded-full border-1 border-transparent bg-white p-1 w-28 sm:w-32 md:w-44 lg:w-40"
@@ -43,10 +40,14 @@ export default function Presentation() {
           </button>
           <button
             type="button"
-            onClick={() => setSendMessage(true)}
             className="rounded-full bg-white border border-[#004182] hover:bg-[#004182] px-4 py-1 text-[#004182] hover:text-white transition-colors duration-400 font-bold sm:text-sm md:text-normal"
           >
-            Enviar Mensagem
+            <a
+              target="_blank"
+              href="https://api.whatsapp.com/send?phone=5524988657087&text=Sauda%C3%A7%C3%B5es,%20tudo%20bem?"
+            >
+              Enviar Mensagem
+            </a>
           </button>
         </div>
         <div className="p-4 pb-1 md:px-8 md:py-10 lg:py-6">

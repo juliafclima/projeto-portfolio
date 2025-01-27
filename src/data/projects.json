@@ -146,8 +146,8 @@
   {
     "title": "Números Secretos",
     "deploy": "",
-    "github": "https://adivinhar-numero-chi.vercel.app/",
-    "description": "https://github.com/juliafclima/adivinhar-numero/",
+    "github": "https://adivinhar-numero-chi.vercel.app",
+    "description": "",
     "skills": [
       "tailwindcss",
       "typescript",
@@ -163,7 +163,7 @@
     "title": "Snake Game",
     "deploy": "",
     "github": "https://juliafclima.github.io/projeto-snake-game/html/index.html/",
-    "description": "https://github.com/juliafclima/projeto-snake-game/",
+    "description": "",
     "skills": [
       "tailwindcss",
       "typescript",
