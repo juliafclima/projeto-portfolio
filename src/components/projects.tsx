@@ -16,7 +16,7 @@ export default function Projects() {
                 <Image
                   className="bg-white w-full h-full object-cover"
                   src={'/projects/' + project.title + '.png'}
-                  alt={project.title + ''}
+                  alt={project.title}
                   width={1000}
                   height={1000}
                 />

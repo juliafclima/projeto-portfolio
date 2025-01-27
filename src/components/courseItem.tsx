@@ -14,7 +14,7 @@ export default function CourseItem(props: { item: ICourse; index: number }) {
           <Image
             className="w-full h-full object-cover"
             src={"/companies/" + item.company + ".jpeg"}
-            alt="Imagem de Perfil da Júlia Lima"
+            alt={item.company}
             width={1000}
             height={800}
           />
@@ -25,7 +25,7 @@ export default function CourseItem(props: { item: ICourse; index: number }) {
               <Image
                 className="w-full h-full object-cover"
                 src={"/companies/" + item.company + ".jpg"}
-                alt="Imagem de Perfil da Júlia Lima"
+                alt={item.company}
                 width={1000}
                 height={800}
               />
@@ -46,7 +46,7 @@ export default function CourseItem(props: { item: ICourse; index: number }) {
                   <Image
                     className="w-full h-full object-cover"
                     src={"/certificates/" + item.company + ".jpg"}
-                    alt="Imagem de Perfil da Júlia Lima"
+                    alt={item.company}
                     width={1000}
                     height={800}
                   />

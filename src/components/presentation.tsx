@@ -23,7 +23,7 @@ export default function Presentation() {
         <Image
           className="rounded-t-xl relative w-full h-28 sm:h-32 md:h-48 object-cover"
           src="/banner.jpg"
-          alt="Imagem de Perfil da Júlia Lima"
+          alt="Imagem de Banner da Júlia Lima"
           width={1000}
           height={800}
           priority
