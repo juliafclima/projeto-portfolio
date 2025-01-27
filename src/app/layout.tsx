@@ -34,16 +34,15 @@ export default function RootLayout({
         <meta property="og:title" content="Portfólio da Júlia Lima" />
         <meta
           property="og:description"
-          content="Veja meus projetos e habilidades como desenvolvedor front-end."
+          content="Veja meus projetos e habilidades como desenvolvedora front-end."
         />
-        <meta
-          property="og:url"
-          content="https://bruno-cabral-portfolio.vercel.app/"
-        />
+        <meta property="og:url" content="juliafclima.software" />
         <meta
           property="og:image"
-          content="https://bruno-cabral-portfolio.vercel.app/icon.png"
+          content="juliafclima.software
+"
         />
+        <link rel="icon" href="favicon.ico" />
         <meta property="og:type" content="website" />
       </head>
       <body
