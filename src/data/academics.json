@@ -15,7 +15,8 @@
       "Metodologias Ágeis",
       "Arquitetura de Software",
       "Análise de Dados"
-    ]
+    ],
+    "media": false
   },
   {
     "id": 2,
@@ -34,7 +35,8 @@
       "Lógica de Programação",
       "Styled Components",
       "Next.JS"
-    ]
+    ],
+    "media": false
   },
   {
     "id": 3,
@@ -51,7 +53,8 @@
       "HTML5 e CSS3",
       "Dados Dinâmicos",
       "Data Binding"
-    ]
+    ],
+    "media": true
   },
   {
     "id": 4,
@@ -74,6 +77,7 @@
       "Metodologias Ágeis",
       "Banco de Dados",
       "Git e GitHub"
-    ]
+    ],
+    "media": true
   }
 ]

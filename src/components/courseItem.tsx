@@ -19,6 +19,7 @@ export default function CourseItem(props: { item: ICourse; index: number }) {
             height={800}
           />
         </div>
+
         <div className="w-full">
           <div className="flex sm:hidden pb-3">
             <div className="w-12 h-12 mr-3">
@@ -40,6 +41,7 @@ export default function CourseItem(props: { item: ICourse; index: number }) {
           <p className="text-sm text-gray-500 mt-0.5">{item.time}</p>
           <ul className="mt-2 text-sm">
             {showMoreData &&
+              item.media === true &&
               item.description.map((text: string, index: number) => (
                 <div key={index}>
                   <li className="mb-2">- {text}</li>
@@ -75,7 +77,11 @@ export default function CourseItem(props: { item: ICourse; index: number }) {
                 setShowMoreData(!showMoreData);
               }}
             >
-              {!showMoreData ? "...ver mais" : "...ver menos"}
+              {item.media === true
+                ? !showMoreData
+                  ? "...ver mais"
+                  : "...ver menos"
+                : null}
             </button>
           </div>
         </div>

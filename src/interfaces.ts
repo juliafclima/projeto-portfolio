@@ -15,6 +15,7 @@ export interface ICourse {
   time: string;
   description: string[];
   skills: string[];
+  media: boolean;
 }
 
 export interface IArticle {
