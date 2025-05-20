@@ -6,6 +6,7 @@ import Presentation from "@/components/presentation";
 import Projects from "@/components/projects";
 import logo from "../../public/favicon.ico";
 import Image from "next/image";
+import Skills from "@/components/skills";
 export default function Home() {
   return (
     <div className="text-black">
@@ -26,6 +27,7 @@ export default function Home() {
           <Presentation />
           <About />
           <Experience />
+          <Skills/>
           <Academics />
           <Projects />
         </div>
