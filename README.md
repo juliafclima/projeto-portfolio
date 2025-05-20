@@ -3,33 +3,31 @@
 ## Sobre mim 👩‍💻
 :computer: Desenvolvedora Full-Stack!
 
-:student: Estudante de Sistemas da Informação na Universidade Estácio de Sá
+:student: Bacharel em Sistemas da Informação na Universidade Estácio de Sá
 
 :house_with_garden: Moro no interior do Rio de Janeiro em uma cidade chamada Petrópolis!
 
-Em 2023, tive a honra de participar do programa de residência em TIC/Software oferecido pelo Parque Tecnológico Região Serrana/SERRATEC no curso de Desenvolvedor Full-Stack.
-
 Entusiasta de tecnologia em busca de conhecimentos! 
+
+Em 2023, tive a honra de participar do programa de residência em TIC/Software oferecido pelo Parque Tecnológico Região Serrana/SERRATEC no curso de Desenvolvedor Full-Stack.
 
 Iniciei meu contato com a computação em um curso de Montagem e Manutenção de computadores terminado em junho/2015. Desde então venho me desafiando nesse mundo de possibilidades que é a programação.
 
 Conhecimento em:
-- Lógica de Programação 
-- HTML5, CSS3, JavaScript, TypeScript 
-- Frameworks (React, React Native, Angular) 
-- Python 
-- Programação Orientada a Objetos (Java) 
-- API RESTful (Spring Boot) 
-- Node.js e Node Package Manager 
-- Versionamento de código (Git e Github) 
-- Banco de Dados (PostgreSQL)
-- Modelagem de Sistemas e Estrutura de Dados 
-- Linguagem Unificada de Modelagem (UML) 
+- Desenvolvimento Front-End (HTML, CSS, JavaScript, TypeScript, Next.js)
+- Frameworks Front-End (React, React Native)
+- Desenvolvimento Back-End (Java, Spring Boot, API RESTful)
+- Desenvolvimento Mobile: Desenvolvimento Nativo (Android - Java)
+- Gerenciamento de Estado: Redux, Context API
+- Banco de Dados (PostgreSQL e consultas SQL)
+- Versionamento de código (Git e Github)
 - Métodos Ágeis (Scrum e Kanban)
+- Testes unitários
+- Estilização: CSS, Styled Components, Tailwind CSS, CSS Modules
 
 ## Conecte-se comigo 📫
 <a href="https://www.linkedin.com/in/juliafclima/" target="_blank"><img loading="lazy" src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white)](https://juliafclima.github.io/projeto-portfolio/pages/index.html)
+[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white)](https://www.juliafclima.software/)
 [![E-mail](https://img.shields.io/badge/-Email-000?style=for-the-badge&logo=microsoft-outlook&logoColor=007BFF)](mailto:juliafclima@hotmail.com)
 
 ## Linguagens - Frameworks - Tecnologias - Ferramentas ✏️
@@ -41,6 +39,4 @@ Conhecimento em:
 
 - Obrigada pela visita!
 
-- Enjoy it!! o//
-  
- <p align="center" style="color:white">@2024 Júlia Lima</p>
+<p align="center">2025 - Júlia Lima</p>

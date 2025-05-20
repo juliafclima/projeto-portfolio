@@ -4,11 +4,13 @@
     "company": "Neki",
     "job": "CLT",
     "serviceTime": "De Dezembro de 2024 até os dias atuais",
-    "time": "3 meses",
+    "time": "6 meses",
     "local": "Petrópolis, Rio de Janeiro, Brasil",
     "type": "Trabalho Remoto",
     "description": [
-      "Atuo no desenvolvimento de uma aplicação web e mobile voltadas para a venda de produtos dentro de aeronaves, para um cliente internacional do setor Duty Free. Meu trabalho incluiu o desenvolvimento de funcionalidades para plataformas móveis, utilizando React e React Native, além de construção de interfaces com Next.js."
+      "Desenvolvimento e manutenção de aplicações mobile Android utilizando React Native e aplicações web com React.",
+      "Integração com APIs RESTful para consumo e envio de dados, utilizando Java e Spring Boot.",
+      "Realização de testes unitários e de integração com Jest."
     ]
   },
   {
@@ -20,7 +22,8 @@
     "local": "Petrópolis, Rio de Janeiro, Brasil",
     "type": "Trabalho Remoto",
     "description": [
-      "Atuei no desenvolvimento de aplicações web utilizando React.JS. Tenho experiência prática em metodologias ágeis, como Scrum, para gerenciar projetos e sprints, utilizando ferramentas como Jira e GitHub para o controle de tarefas, versionamento de código e colaboração em equipe."
+      "Desenvolvimento e manutenção de aplicações web com React.",
+      "Integração com APIs RESTful para consumo e envio de dados, utilizando Java e Spring Boot."
     ]
   },
   {
@@ -32,7 +35,8 @@
     "local": "Petrópolis, Rio de Janeiro, Brasil",
     "type": "Trabalho Presencial / Trabalho Remoto",
     "description": [
-      "Programa de qualificação nas áreas de Desenvolvimento de Software Full Stack, ágil e imersivo, conceitual prático, gratuito e de alto impacto socioeconômico na Região Serrana do Estado do Rio de Janeiro, operado pelo Serratec, em parceria com a Firjan/SENAI, Sinditec e outros parceiros."
+      "Desenvolvimento e manutenção de aplicações mobile Android utilizando React Native.",
+      "Desenvolvimento e manutenção de aplicações web utilizando React"
     ]
   }
 ]

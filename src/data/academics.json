@@ -19,6 +19,26 @@
     "media": false
   },
   {
+    "id": 5,
+    "company": "Neki",
+    "course": "Treinamento em Inteligência Artificial",
+    "time": "Março de 2025",
+    "description": [
+      "Treinamento voltado para o desenvolvimento de competências na área de Inteligência Artificial, com foco na criação, implementação e gestão de sistemas computacionais que atendem às necessidades de empresas e organizações."
+    ],
+    "skills": [
+      "Inteligência Artificial",
+      "Machine Learning",
+      "Deep Learning",
+      "Redes Neurais",
+      "Aprendizado de Máquina",
+      "Aprendizado Profundo",
+      "Aprendizado por Reforço",
+      "Aprendizado por Enxame"
+    ],
+    "media": true
+  },
+  {
     "id": 2,
     "company": "Oracle",
     "course": "Programa Oracle Next Education Front-End",

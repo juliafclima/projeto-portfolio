@@ -32,54 +32,6 @@
     ]
   },
   {
-    "title": "CodFarma",
-    "deploy": "",
-    "github": "https://github.com/juliafclima/trabalho-react-NATIVE-grupo2",
-    "description": "",
-    "skills": [
-      "tailwindcss",
-      "typescript",
-      "vercel",
-      "html5",
-      "css3",
-      "reactjs",
-      "next-js",
-      "firebase"
-    ]
-  },
-  {
-    "title": "Marvelgram",
-    "deploy": "",
-    "github": "https://github.com/juliafclima/cloneMarvegram",
-    "description": "",
-    "skills": [
-      "tailwindcss",
-      "typescript",
-      "vercel",
-      "html5",
-      "css3",
-      "reactjs",
-      "next-js",
-      "firebase"
-    ]
-  },
-  {
-    "title": "Rekut",
-    "deploy": "",
-    "github": "https://github.com/juliafclima/trabalho-react-grupo2",
-    "description": "",
-    "skills": [
-      "tailwindcss",
-      "typescript",
-      "vercel",
-      "html5",
-      "css3",
-      "reactjs",
-      "next-js",
-      "firebase"
-    ]
-  },
-  {
     "title": "Starbucks",
     "deploy": "https://juliafclima.github.io/projeto-starbucks/pages/",
     "github": "https://github.com/juliafclima/projeto-starbucks",
@@ -112,73 +64,9 @@
     ]
   },
   {
-    "title": "Pokédex",
-    "deploy": "https://juliafclima.github.io/pokedex/src/pages/index.html",
-    "github": "https://github.com/juliafclima/pokedex",
-    "description": "",
-    "skills": [
-      "tailwindcss",
-      "typescript",
-      "vercel",
-      "html5",
-      "css3",
-      "reactjs",
-      "next-js",
-      "firebase"
-    ]
-  },
-  {
     "title": "Blog",
     "deploy": "https://blog-seven-eta-11.vercel.app/",
     "github": "https://github.com/juliafclima/Blog/",
-    "description": "",
-    "skills": [
-      "tailwindcss",
-      "typescript",
-      "vercel",
-      "html5",
-      "css3",
-      "reactjs",
-      "next-js",
-      "firebase"
-    ]
-  },
-  {
-    "title": "Números Secretos",
-    "deploy": "https://adivinhar-numero-chi.vercel.app",
-    "github": "https://github.com/juliafclima/adivinhar-numero",
-    "description": "",
-    "skills": [
-      "tailwindcss",
-      "typescript",
-      "vercel",
-      "html5",
-      "css3",
-      "reactjs",
-      "next-js",
-      "firebase"
-    ]
-  },
-  {
-    "title": "Snake Game",
-    "deploy": "https://juliafclima.github.io/projeto-snake-game/html/",
-    "github": "https://github.com/juliafclima/projeto-snake-game",
-    "description": "",
-    "skills": [
-      "tailwindcss",
-      "typescript",
-      "vercel",
-      "html5",
-      "css3",
-      "reactjs",
-      "next-js",
-      "firebase"
-    ]
-  },
-  {
-    "title": "Cordel Moderno",
-    "deploy": "https://juliafclima.github.io/projeto-cordel/",
-    "github": "https://github.com/juliafclima/projeto-cordel/",
     "description": "",
     "skills": [
       "tailwindcss",

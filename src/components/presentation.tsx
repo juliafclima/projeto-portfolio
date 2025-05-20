@@ -52,10 +52,7 @@ export default function Presentation() {
         </div>
         <div className="p-4 pb-1 md:px-8 md:py-10 lg:py-6">
           <div className="font-bold text-xl">Júlia Lima</div>
-          <div>
-            Front-End | Typescript | Javascript | Next.Js | React | React Native
-            | CSS
-          </div>
+          <div>Sistemas de Informação | Next.js | React | React Native</div>
           <div className="flex flex-col sm:flex-row items-start">
             <span className="text-gray-500">
               Petrópolis, Rio de Janeiro, Brasil
