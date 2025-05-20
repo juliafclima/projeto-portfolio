@@ -7,6 +7,7 @@ import Image from "next/image";
 export default function JobItem(props: { item: IJob; index: number }) {
   const { item, index } = props;
   const [showMoreData, setShowMoreData] = useState(false);
+  
   return (
     <div className="flex flex-col w-full">
       <div className="flex flex-col sm:flex-row">
@@ -24,7 +25,7 @@ export default function JobItem(props: { item: IJob; index: number }) {
             <div className="w-12 h-12 mr-3">
               <Image
                 className="w-full h-full object-cover"
-                src={"/companies/" + item.company + ".jpg"}
+                src={"/companies/" + item.company + ".jpeg"}
                 alt={item.company}
                 width={1000}
                 height={800}

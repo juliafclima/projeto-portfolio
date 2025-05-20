@@ -2,7 +2,6 @@
 import skillsList from '../data/skills.json';
 
 export default function Skills() {
-
   return(
     <div className="mb-3 bg-white rounded-xl p-4 sm:p-8">
       <p className="font-bold text-xl mb-5">Habilidades</p>

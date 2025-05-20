@@ -8,6 +8,7 @@ interface IProvider {
 
 export default function Provider({ children }: IProvider) {
   const [showInformations, setShowInformations] = useState<boolean>(false);
+  
   return (
     <contexto.Provider
       value={{

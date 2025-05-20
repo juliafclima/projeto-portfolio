@@ -1,6 +1,7 @@
 import { ICourse } from "@/interfaces";
 import academicsList from "../data/academics.json";
 import CourseItem from "./courseItem";
+
 export default function Academics() {
   return (
     <div className="mb-3 bg-white rounded-xl p-4 sm:p-8">

@@ -1,6 +1,7 @@
 import { IProject } from '@/interfaces';
 import projectsList from '../data/projects.json';
 import Image from 'next/image';
+
 export default function Projects() {
   return(
     <div className="mb-3 bg-white rounded-xl p-4 sm:p-8">
