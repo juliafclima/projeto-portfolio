@@ -6,9 +6,7 @@ export default function About() {
     <div className="mb-3 bg-white rounded-xl p-4 sm:p-8">
       <p className="font-bold text-xl mb-5">Sobre</p>
       <p className="mb-2 text-justify">
-        Olá! Meu nome é Júlia Lima, tenho 23 anos e sou desenvolvedora
-        Front-End. Moro em Petrópolis, no interior do Rio de Janeiro, e estudo
-        na Universidade Estácio de Sá, onde estou no 8º período do curso de
+        Olá! Meu nome é Júlia Lima, tenho 24 anos e sou desenvolvedora. Moro em Petrópolis, no interior do Rio de Janeiro, e sou formada na Universidade Estácio de Sá no curso de
         Sistemas de Informação.
       </p>
       {showMoreData && (
@@ -20,12 +18,12 @@ export default function About() {
             programação.
           </p>
           <p className="mb-2 text-justify">
-            Um dos meus últimos grandes projetos foi o desenvolvimento de uma
+          Um dos meus últimos grandes projetos foi o desenvolvimento de uma
             aplicação web e mobile para um cliente internacional do setor Duty
             Free, voltada para a venda de produtos dentro de aeronaves.
           </p>
           <p className="mb-2 text-justify">
-            Meu objetivo é construir uma carreira sólida como desenvolvedora
+          Meu objetivo é construir uma carreira sólida como desenvolvedora
             Front-End, unindo minha experiência e paixão para criar experiências
             digitais de alto impacto.
           </p>

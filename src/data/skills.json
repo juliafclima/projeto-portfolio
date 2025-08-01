@@ -29,6 +29,14 @@
         {
           "name": "Next.js",
           "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
+        },
+        {
+          "name": "Android",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/android/android-original.svg"
+        },
+        {
+          "name": "Redux",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redux/redux-original.svg"
         }
       ]
     },
@@ -64,6 +72,10 @@
         {
           "name": "GitHub",
           "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+        },
+        {
+          "name": "Jest",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jest/jest-plain.svg"
         },
         {
           "name": "NPM",
