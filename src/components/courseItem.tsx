@@ -48,7 +48,7 @@ export default function CourseItem(props: { item: ICourse; index: number }) {
                   <li className="mb-2">- {text}</li>
                   <Image
                     className="w-full h-full object-cover"
-                    src={"/certificates/" + item.company + ".jpeg"}
+                    src={"/certificates/" + item.company + ".jpg"}
                     alt={item.company}
                     width={1000}
                     height={800}

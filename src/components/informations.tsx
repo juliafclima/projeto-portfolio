@@ -109,7 +109,7 @@ export default function Informations() {
               <p>Celular:</p>
               <a
                 target="_blank"
-                href="https://api.whatsapp.com/send?phone=5524988657087&text=Sauda%C3%A7%C3%B5es,%20tudo%20bem?"
+                href="https://api.whatsapp.com/send?phone=5524988657087&text=Ol%C3%A1,%20vim%20pelo%20seu%20portf%C3%B3lio.%20Gostaria%20de%20conversar%20%C3%A0%20respeito"
                 className="font-bold hover:underline text-[#0a66c2] hover:text-[#004182] transition-colors duration-400"
               >
                 +55 24 9 8865-7087
