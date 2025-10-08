@@ -1,5 +1,21 @@
 [
   {
+    "title": "Pet Love Shop",
+    "deploy": "https://petloveshop.vercel.app/",
+    "github": "https://github.com/juliafclima/petloveshop",
+    "description": "",
+    "skills": [
+      "tailwindcss",
+      "typescript",
+      "vercel",
+      "html5",
+      "css3",
+      "reactjs",
+      "next-js",
+      "firebase"
+    ]
+  },
+  {
     "title": "Gif Tok",
     "deploy": "https://gif-tok-vue.vercel.app/",
     "github": "https://github.com/juliafclima/gif-tok-vue",
