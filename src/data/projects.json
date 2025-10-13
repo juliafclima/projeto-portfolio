@@ -1,5 +1,21 @@
 [
   {
+    "title": "Meteora",
+    "deploy": "https://meteora-beta-red.vercel.app/",
+    "github": "https://github.com/juliafclima/Meteora",
+    "description": "",
+    "skills": [
+      "tailwindcss",
+      "typescript",
+      "vercel",
+      "html5",
+      "css3",
+      "reactjs",
+      "next-js",
+      "firebase"
+    ]
+  },
+  {
     "title": "Pet Love Shop",
     "deploy": "https://petloveshop.vercel.app/",
     "github": "https://github.com/juliafclima/petloveshop",
